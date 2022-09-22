@@ -35,5 +35,7 @@ script = ExtResource( 1 )
 
 [node name="xy" type="Spatial" parent="RigidBody/Spatial"]
 
-[node name="ClippedCamera" type="ClippedCamera" parent="RigidBody/Spatial/xy"]
+[node name="z" type="Spatial" parent="RigidBody/Spatial/xy"]
+
+[node name="ClippedCamera" type="ClippedCamera" parent="RigidBody/Spatial/xy/z"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.385608, 0.3763, 1.68708 )
