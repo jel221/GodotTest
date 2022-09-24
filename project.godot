@@ -70,6 +70,14 @@ exit={
 , Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":0,"button_index":11,"pressure":0.0,"pressed":false,"script":null)
  ]
 }
+wheel_down={
+"deadzone": 0.5,
+"events": [  ]
+}
+wheel_up={
+"deadzone": 0.5,
+"events": [  ]
+}
 
 [physics]
 
